@@ -1,0 +1,7 @@
+DEPENDENCIES
+  pelib
+    path: .
+    metadata: true
+
+GRAPH
+  pelib (0.1.0)
