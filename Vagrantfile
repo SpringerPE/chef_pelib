@@ -10,7 +10,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
-
   config.vm.hostname = "pelib-berkshelf"
 
   # Set the version of chef to install using the vagrant-omnibus plugin
