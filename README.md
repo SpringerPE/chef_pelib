@@ -1,41 +1,19 @@
 # pelib-cookbook
 
-TODO: Enter the cookbook description here.
+Cookbook library with some useful funtions, reources and examples
+Good example about how to make a library and a small LWRP chef resource. 
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['pelib']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
-
-## Usage
+ * Debian
+ * Ubuntu
+ * Centos
+ * RedHat
 
 ### pelib::default
 
-Include `pelib` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[pelib::default]"
-  ]
-}
-```
+Include `pelib` in your node's dependencies and use the funtions as
+in the examples recipes
 
 ## Contributing
 
@@ -48,4 +26,4 @@ Include `pelib` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Springer (<jose.riguera@springer.com>)
+Author:: Jose Riguera Lopez, Springer SBM (<jose.riguera@springer.com>)
