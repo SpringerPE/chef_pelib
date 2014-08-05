@@ -1,26 +1,25 @@
-# pelib-cookbook
+# pelib
 
-Library for chef cookbooks
+Cookbook library with some useful funtions, reources and examples
+Good example about how to make a library and a small LWRP chef resource. 
 
-TODO: Enter the cookbook description here.
+ * LWRP kmod provider to manage kernel modules.
+ * Functions and examples to read a databag and add the items to attributes.
+ * Functions to manage network and udev devices.
+ * Functions to exec commands.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+ * Debian
+ * Ubuntu
+ * Centos
+ * RedHat
+
 
 ## Usage
 
-### pelib::default
-
-Include `pelib` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[pelib::default]"
-  ]
-}
-```
+Include `pelib` in your node's dependencies and use the funtions as
+in the examples recipes
 
 ## Contributing
 
@@ -33,5 +32,4 @@ Include `pelib` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Springer (<jose.riguera@springer.com>)
-
+Author:: Jose Riguera Lopez, Springer SBM (<jose.riguera@springer.com>)

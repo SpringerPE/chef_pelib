@@ -2,7 +2,7 @@
 # Cookbook Name:: pelib
 # Recipe:: default
 #
-# Copyright (C) 2014 Springer
+# Copyright Jose Riguera (C) 2014 Springer SBM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
