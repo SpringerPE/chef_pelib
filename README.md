@@ -1,7 +1,7 @@
 # pelib
 
-Cookbook library with some useful functions, resources and examples
-Good example about how to make a library and a small LWRP chef resource. 
+A cookbook library with some useful functions, resources, and examples.
+This should be a good example of how to implement a library and a small LWRP chef resource. 
 
  * LWRP kmod provider to manage kernel modules.
  * Functions and examples to read a data bag and add the items to attributes.
